@@ -20,7 +20,7 @@ public class HomeController {
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
 	//git 커밋 연습용 주석입니다아아아아아아아아아아아아아
-	//github(리포지토리)에서 직접 수정함
+	//github(리포지토리)에서 직접 수정함ㅍㅍ
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
