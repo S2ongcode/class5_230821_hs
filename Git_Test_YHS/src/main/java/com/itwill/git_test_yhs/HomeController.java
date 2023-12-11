@@ -21,6 +21,7 @@ public class HomeController {
 	
 	//git 커밋 연습용 주석입니다아아아아아아아아아아아아아
 	//github(리포지토리)에서 직접 수정함
+	//로컬에서 수정 추가함
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
